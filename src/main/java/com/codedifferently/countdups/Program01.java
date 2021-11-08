@@ -1,7 +1,6 @@
 package com.codedifferently.countdups;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
 
 public class Program01 {
@@ -15,11 +14,12 @@ public class Program01 {
 
         input = input.toLowerCase(); //changing all characters to lowercase
         String[] word = input.split(" "); // isolate each word
-        List<String> duplicateWord = new ArrayList<>();
-        HashSet<String> eachWord = new HashSet<>();
-        for (String string1 : string1Array) {
-            if
-        }
+        List<String> duplicateWord = new ArrayList<>(); // create an arrayList of strings
+
+            for (int i = 0; i > input.length(); i++) {
+                
+
+            }
 
         return null;
     }
