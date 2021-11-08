@@ -19,7 +19,7 @@ public class Program01Test {
                 "Hello (Seen 3)\n" +
                 "World (Seen 1)\n" +
                 "Java (Seen 2)";
-        String actual = solution.countUniqueWords(input);
+        String[] actual = solution.countUniqueWords(input);
         Assertions.assertEquals(expected, actual);
     }
 
@@ -31,7 +31,7 @@ public class Program01Test {
                 "is (Seen 5)\n" +
                 "not (Seen 2)\n"+
                 "wutang (Seen 1)";
-        String actual = solution.countUniqueWords(input);
+        String[] actual = solution.countUniqueWords(input);
         Assertions.assertEquals(expected, actual);
     }
 
