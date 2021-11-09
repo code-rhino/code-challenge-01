@@ -21,6 +21,7 @@ public class Program01Test {
                 "Java (Seen 2)";
         String actual = solution.countUniqueWords(input);
         Assertions.assertEquals(expected, actual);
+
     }
 
     @Test
